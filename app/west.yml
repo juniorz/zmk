@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: juniorz
+      url-base: https://github.com/juniorz
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v3.5.0+zmk-fixes
+      remote: juniorz
+      revision: v3.6.0+zmk-fixes
       clone-depth: 1
       import:
         name-blocklist:
